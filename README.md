@@ -15,7 +15,8 @@ Only load logic if the component was rendered
 
 ## API
 
-### `setStore(store)`
+### `initializeStore(store: ReduxStore, reducers: Object)`
+Initializes the store and stores any provided reducers.
 
 ### `enhanceStore(reducerName: String, reducer: Fn)`
 Enhance store provides the store with the new components reducer.
