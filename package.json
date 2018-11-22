@@ -1,0 +1,36 @@
+{
+  "name": "enhance-store",
+  "version": "0.0.1",
+  "description": "Avoid a central configuration of redux reducers",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && NODE_ENV=production babel lib/index.js --out-file ./dist/index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "redux",
+    "react",
+    "javascript",
+    "lazy"
+  ],
+  "author": "millsky",
+  "license": "MIT",
+  "dependencies": {
+    "eventemitter3": "^3.1.0",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.6"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
+  }
+}
