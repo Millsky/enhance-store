@@ -22,3 +22,29 @@ Initializes the store and stores any provided reducers.
 Enhance store provides the store with the new components reducer.
 Under the hood, it operates by calling `replaceStore` on the redux-store
 
+#### Redux Lifecycle Hooks:
+``enhance-store`` provides the following lifcycle hooks to use how you like:
+
+``@ENHANCE_STORE/ADD_REDUCER_START``: Fires before start of adding a new reducer to the store.
+
+``@ENHANCE_STORE/ADD_REDUCER_SUCCESS``: Fires after a new reducer has been added to the store.
+
+### `unenhanceStore(reducerName: String)`
+Removes a reducer from the store by calling: `replaceStore` on the redux-store
+
+#### Redux Lifecycle Hooks:
+``enhance-store`` provides the following lifcycle hooks to use how you like:
+
+``@ENHANCE_STORE/REMOVE_REDUCER_START``: Fires before the start of removing a reducer. 
+
+``@ENHANCE_STORE/REMOVE_REDUCER_SUCCESS``: Fires after a reducer has been removed from the store.
+
+## Contributing
+
+### Testing:
+
+Tests are written in [Jest](https://jestjs.io/).
+
+To run tests: ``npm run test``
+
+To run tests in watch mode: ``npm run test:watch``
