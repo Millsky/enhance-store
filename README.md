@@ -1,4 +1,4 @@
-# Redux Enhancer
+# Enhance Store
 
 ## Design Goals
 
@@ -12,6 +12,10 @@ Decouple independent features
 
 ### Design Goal 3:
 Only load logic if the component was rendered
+
+## Installation
+
+`npm install --save enhance-store`
 
 ## API
 
