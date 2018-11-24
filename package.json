@@ -1,6 +1,6 @@
 {
   "name": "enhance-store",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Avoid a central configuration of redux reducers",
   "main": "dist/index.js",
   "scripts": {
@@ -17,7 +17,6 @@
   "author": "millsky",
   "license": "MIT",
   "dependencies": {
-    "eventemitter3": "^3.1.0",
     "redux": "^4.0.1"
   },
   "devDependencies": {

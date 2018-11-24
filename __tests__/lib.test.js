@@ -3,8 +3,8 @@
  */
 import sinon from 'sinon';
 import { initializeStore, enhanceStore, unenhanceStore } from '../lib/index';
-import initialStore from '../lib/store';
-import initialReducers from '../lib/reducers';
+import initialStore from '../lib/storeGetterSetter';
+import initialReducers from '../lib/reducersGetterSetter';
 
 describe('enhance-store', () => {
     let sandbox;
