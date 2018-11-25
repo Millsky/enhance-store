@@ -1,5 +1,5 @@
 #webstorm
-.idea
+.idea/
 
 dist
 node_modules
